@@ -1,4 +1,4 @@
 # Mypage
 School project
 
-evvieevee.github.io
+https://evvieevee.github.io/
