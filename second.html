@@ -4,29 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
     <title>second</title>
 </head>
 <body>
 <header>
-    <h1>Tämä on tehtävä 04B.</h1>
+    <div>
+    <a href="https://evvieevee.github.io/index.html">Etusivu</a>  
+        <h1>Tämä on tehtävä 04B.</h1>
+    </div>
     <p>Tässä harjoittelen lisää nettisivujen tekoa.</p> 
     <p>Tässä osassa harjoittelen myös visuaalisen puolen perusteita.</p>   
 </header>
     <br>
     <p>Tältä sivulta pääset takaisin etusivulle.</p>
-<a href="https://evvieevee.github.io/index.html">Etusivu</a>
     <br>
-<img src="Kissa.jpg" alt="Minun kissa" width="350px;" height="250px;"> 
-<figure> 
-    <img src="kissa2.jpg" alt="Toinen kissani" style="width:350px; height: 200px;"> 
-</figure>
+    
+    <label for="progressbar">Edistymiseni kurssilla:</label>
+    <progress id="progressbar" value="33" max="100"> 33% </progress>
 
+    <div class="kissacontainer">
+        <img id="kissa1" src="Kissa.jpg" alt="Minun kissa"> 
+<figure> 
+    <img src="kissa2.jpg" alt="Toinen kissani"> 
+    <figcaption>Kissa2</figcaption>
+</figure>
+    </div>
+
+
+<style>
+    body{
+        background-color:#bfa7ec;
+        margin: auto;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    h1{
+       border:4px solid #ae3ed3;
+    }
+    
+#kissa1 {
+ margin:auto;
+   
+}
+.kissacontainer {
+    display: flex;
+
+}
+.kissacontainer img {
+    width:250px;
+    height:150px;
+    
+}
+    
+</style>
 </body>
 
 
 
 </html>
+
+
+
 
 
 
