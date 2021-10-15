@@ -1,0 +1,46 @@
+body{
+    background-color:#bfa7ec;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+h1{
+    border:4px solid #ae3ed3;
+    width: 300px;
+    margin: auto;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+a {
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    padding: 10px;
+    border-radius: 75px;
+    background-color: rgb(53, 1, 71);
+    color: white;
+}
+
+#niceBorder {
+    background-color: #7e46e6;
+    border-radius: 75px;
+    border: 2px solid #6418a1;
+    padding-top: 40px;
+    width: 220px;
+    height: 70px;
+    margin: auto;
+}
+.kissacontainer {
+    display: flex;
+    justify-content: center;
+}
+.kissacontainer img {
+    width:250px;
+    height:150px;
+}
+#kissa1 {
+    margin-top: 40px;
+}
+.kissacontainer figure {
+    margin-top: 40px;
+}
