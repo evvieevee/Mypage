@@ -1,24 +1,34 @@
-body{
-    background-color:#bfa7ec;
-    margin: auto;
-    text-align: center;
+html Body{
+    background-color:#8b7cdf;
     font-family: sans-serif;
+    height: 100%;
+    margin: 0;
 }
 h1{
     border:4px solid #ae3ed3;
     width: 300px;
     margin: auto;
     padding-top: 5px;
-    margin-top: 10px;
 }
 a {
-    position: absolute;
-    left: 20px;
-    top: 5px;
+    display: block;
     padding: 10px;
     border-radius: 75px;
-    background-color: rgb(53, 1, 71);
-    color: white;
+    background-color: rgb(252, 116, 6);
+    color: rgb(0, 0, 0);
+}
+.VertNav{
+    float:left;
+    width: 150px;
+    height: 100vh;
+    background-color: tomato;
+
+}
+
+section {
+    display: flow-root;
+    text-align: center;
+    
 }
 
 #niceBorder {
