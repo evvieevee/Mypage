@@ -1,0 +1,57 @@
+
+html Body{
+    background-color:#ecca6a;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+}
+h1{
+    border:4px solid rgb(255, 174, 0);
+    width: 300px;
+    margin: auto;
+    padding-top: 5px;
+}
+section {
+    display: flow-root;
+    text-align: center;
+    
+}
+
+
+#niceBorder {
+    background-color: #eb7937;
+    border-radius: 75px;
+    border: 2px solid #b92d14;
+    padding-top: 40px;
+    width: 220px;
+    height: 70px;
+    margin: auto;
+}
+.kissacontainer {
+    display: flex;
+    justify-content: center;
+}
+.kissacontainer img {
+    width:250px;
+    height:150px;
+}
+#kissa1 {
+    margin-top: 40px;
+}
+.kissacontainer figure {
+    margin-top: 40px;
+}
+.VertNav{
+    float:left;
+    width: 150px;
+    height: 100vh;
+    background-color: tomato;
+
+}
+a {
+    display: block;
+    padding: 10px;
+    border-radius: 75px;
+    background-color: rgb(252, 116, 6);
+    color: rgb(0, 0, 0);
+}
