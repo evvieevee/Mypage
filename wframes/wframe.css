@@ -1,0 +1,19 @@
+
+.navButton {
+    background-color: darkgray;
+    border: 2px solid rgb(97, 97, 97);
+    margin: 4px -2px 0px -2px;
+    padding: 0px;
+    width: 70px;
+    height: 32px;
+}
+body {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.leftAlign {
+    text-align: left;
+    margin-left: 20px;
+    float: left;
+}
