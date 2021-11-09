@@ -32,3 +32,14 @@ input[type='text']::-webkit-input-placeholder {
     position: absolute;
     top: 10px;
 }
+
+
+#my-pie-chart {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    background: conic-gradient(
+        blue 90deg, cornflowerblue 90deg 140deg, lightblue 140deg 240deg, blue 240deg);
+}
