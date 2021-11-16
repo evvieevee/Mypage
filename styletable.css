@@ -1,0 +1,24 @@
+table{
+    border: 2px black solid;
+    background-color: whitesmoke;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td {
+    border: 1px black solid;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
